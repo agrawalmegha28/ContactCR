@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contact</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnContactText">Go to AndContact</string>
+    <string name="btnWriteContacts">Write Contacts</string>
+    <string name="btnShowContacts">Show Contacts</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnContactPickerText">Go to ContactPicker</string>
+    <string name="title_activity_and_contacts">AndContacts</string>
+    <string name="Name">Name: </string>
+    <string name="Sex">Sex: </string>
+    <string name="Male">M </string>
+    <string name="Female">F </string>
+    <string name="Phone">Phone: </string>
+    <string name="Email">Email:  </string>
+    <string name="PostalAddress">Postal Address: </string>
+    <string name="btnSave">Save</string>
+    <string name="btnSend">Send To Friends</string>
+    <string name="title_activity_show_contacts">ShowContactsActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

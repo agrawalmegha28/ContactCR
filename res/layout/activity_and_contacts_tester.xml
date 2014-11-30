@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.contact.AndContactsTester" >
+    
+    <Button
+        android:id="@+id/btnWriteContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/btnWriteContacts"
+        android:onClick="AndContact"
+        />
+    <Button
+        android:id="@+id/btnShowContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnShowContacts"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnWriteContacts"
+        android:layout_toLeftOf="@+id/btnClear"
+        android:onClick="ContactPicker"
+        />
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/btnClear"
+        android:onClick="onClear"
+        />
+          <ListView
+        android:id="@+id/lvContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnShowContacts"
+        >
+
+    </ListView>
+</RelativeLayout>
